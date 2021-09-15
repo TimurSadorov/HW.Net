@@ -8,7 +8,8 @@ on:
 
 jobs:
   build:
-
+    env:
+      PATH_TO_SLN: "src/Homeworks"
     runs-on: ubuntu-latest
 
     steps:
@@ -19,6 +20,7 @@ jobs:
         dotnet-version: 5.0.x
     - name: Restore dependencies
       run: dotnet restore
+      working-directory: env.PATH_TO_SLN
     - name: Build
       run: dotnet build --no-restore
     - name: Test
