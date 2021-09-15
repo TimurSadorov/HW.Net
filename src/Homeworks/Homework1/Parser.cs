@@ -3,29 +3,29 @@ using System.Linq;
 
 namespace Homework1
 {
-    public static class CalculatorParser
+    public static class Parser
     {
-        private static readonly string[] SupportedOperations = {"+", "-", "*", "/"};
-
-        public static bool TryParse(string[] args, bool isVal1Int, bool isVal2Int, string operation, out int res)
+        private static readonly string[] SupportedOperations = { "+", "-", "*", "/" };
+        public static int TryParseArguments(string[] args, out int val1, out string operation, out int val2)
         {
+            var isVal1Int = int.TryParse(args[0], out val1);
+            operation = args[1];
+            var isVal2Int = int.TryParse(args[2], out val2);
+
             if (!isVal1Int || !isVal2Int)
             {
                 Console.WriteLine($"{args[0]}{args[1]}{args[2]} is not a valid calculate syntax");
-                res = 1;
-                return false;
+                return 1;
             }
 
             if (!SupportedOperations.Contains(operation))
             {
                 Console.WriteLine($"{args[0]}{args[1]}{args[2]} is not a valid calculate syntax" +
                                   $"\nSupported operations are:{SupportedOperations.Aggregate((x, y) => x + " " + y)}");
-                res = 2;
-                return false;
+                return 2;
             }
 
-            res = 0;
-            return true;
+            return 0;
         }
     }
 }

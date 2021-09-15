@@ -6,4 +6,8 @@
         <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Codecov" Version="1.13.0" />
+    </ItemGroup>
+
 </Project>
