@@ -17,7 +17,8 @@ jobs:
       with:
         dotnet-version: 5.0.x
     - name: Restore dependencies
-      run: dotnet restore /src/Homeworks
+      run: dotnet restore
+      working-directory: ./src/Homeworks
     - name: Build
       run: dotnet build --no-restore
     - name: Test
