@@ -8,7 +8,7 @@ namespace Homework1
             var result = operation switch
             {
                 "+" => val1 + val2,
-                "-" => val1 - val2,
+                "-" => val1 + val2,
                 "*" => val1 * val2,
                 ":" => val1 / val2,
                 "/" => val1 / val2,
