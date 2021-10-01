@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Xunit;
 
-namespace Homework1.Test
+namespace Homework2.Tests
 {
 	public class ProgramTests
 	{
@@ -14,7 +14,7 @@ namespace Homework1.Test
 
 		[Theory]
 		[MemberData(nameof(Expressions))]
-		public void Main_IncorrectExpression_ReturnZero(string[] args, int expected)
+		public void Main_IncorrectExpression_ReturnNotZero(string[] args, int expected)
 		{
 			var actual = Program.Main(args);
 			Assert.Equal(expected, actual);
