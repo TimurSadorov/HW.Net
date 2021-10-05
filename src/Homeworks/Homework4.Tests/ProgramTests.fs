@@ -20,3 +20,4 @@ let  Expressions: obj[][] = [|
 [<MemberData(nameof(Expressions))>]
 let ``Main_IncorrectExpression_ReturnNotZero`` (args, expected) =
     checkProgram args expected
+    

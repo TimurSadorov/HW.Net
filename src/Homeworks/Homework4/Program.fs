@@ -1,5 +1,4 @@
 module Homework4.Program
-let add x y = x+ y
 
 let upportedOperations = [|"+"; "-"; "*"; "/"; ":"|]
 
