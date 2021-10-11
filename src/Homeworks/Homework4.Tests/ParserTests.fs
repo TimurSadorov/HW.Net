@@ -20,7 +20,7 @@ let CorrectArguments = [|
 
 [<Theory>]
 [<MemberData(nameof(CorrectArguments))>]
-let ``TryParseArguments_CorrectExpression_ReturnZero`` (args) =
+let TryParseArguments_CorrectExpression_ReturnZero args =
     checkParsingOperation args 0
 
 let InvalidArguments = [|
@@ -31,7 +31,7 @@ let InvalidArguments = [|
 
 [<Theory>]
 [<MemberData(nameof(InvalidArguments))>]
-let ``TryParseArguments_InvalidArguments_ReturnOne`` (args) =
+let TryParseArguments_InvalidArguments_ReturnOne args =
     checkParsingOperation args 1
 
 let InvalidOperations = [|
@@ -42,5 +42,5 @@ let InvalidOperations = [|
 
 [<Theory>]
 [<MemberData(nameof(InvalidOperations))>]
-let ``TryParseArguments_InvalidOperation_ReturnTwo`` (args) =
+let TryParseArguments_InvalidOperation_ReturnTwo args =
     checkParsingOperation args 2

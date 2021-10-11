@@ -8,7 +8,7 @@ let checkProgram args expected =
     Assert.Equal(expected, actual)
 
 [<Fact>]
-let ``Main_CorrectExpression_ReturnZero`` () =
+let Main_CorrectExpression_ReturnZero () =
     checkProgram [|"1"; "+"; "2"|] 0
 
 let  Expressions: obj[][] = [|
@@ -18,6 +18,6 @@ let  Expressions: obj[][] = [|
 
 [<Theory>]
 [<MemberData(nameof(Expressions))>]
-let ``Main_IncorrectExpression_ReturnNotZero`` (args, expected) =
+let Main_IncorrectExpression_ReturnNotZero (args, expected) =
     checkProgram args expected
     
