@@ -1,7 +1,5 @@
 module Homework4.Program
 
-let upportedOperations = [|"+"; "-"; "*"; "/"; ":"|]
-
 [<EntryPoint>]
 let main args =
     let mutable val1 = 0
