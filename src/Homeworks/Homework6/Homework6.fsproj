@@ -19,7 +19,6 @@
         <Compile Include="Parser.fs" />
         <Compile Include="Calculator.fs" />
         <Compile Include="СalculatorHttpHandler.fs" />
-        <Compile Include="Startup.fs" />
         <Compile Include="Program.fs" />
     </ItemGroup>
 

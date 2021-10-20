@@ -1,11 +1,30 @@
 using System.Net.Http;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc.Testing;
+using Microsoft.AspNetCore.TestHost;
+using Microsoft.Extensions.Hosting;
 using Xunit;
 
 namespace Homework6.Tests
 {
-	public class ProgramTests
+	public class HostBuilder : WebApplicationFactory<App.Startup>
 	{
+		protected override IHostBuilder CreateHostBuilder()
+			=> Host
+				.CreateDefaultBuilder()
+				.ConfigureWebHostDefaults(a => a
+					.UseStartup<App.Startup>()
+					.UseTestServer());
+	}
+	public class ProgramTests : IClassFixture<HostBuilder>
+	{
+		private readonly HttpClient client;
+		public ProgramTests(HostBuilder fixture)
+		{
+			client = fixture.CreateClient();
+		}
+		
 		[Theory]
 		[InlineData("2", "plus", "4", "6.0")]
 		[InlineData("10", "minus", "4", "6.0")]
@@ -49,13 +68,21 @@ namespace Homework6.Tests
 			await DoTest(v1, operation, v2, expected);
 		}
 
-		private static async Task DoTest(string v1, string operation, string v2, string expected)
+		private async Task DoTest(string v1, string operation, string v2, string expected)
 		{
-			var httpClient = new HttpClient();
 			var response =
-				await httpClient.GetAsync($"http://localhost:5000/calculate?v1={v1}&Operation={operation}&v2={v2}");
+				await client.GetAsync($"http://localhost:5000/calculate?v1={v1}&Operation={operation}&v2={v2}");
 			var result = await response.Content.ReadAsStringAsync();
 			Assert.Equal(expected, result);
+		}
+
+		[Fact]
+		public async Task Main_NonExistentPage_ReturnNotFound()
+		{
+			var response =
+				await client.GetAsync($"http://localhost:5000/calc");
+			var result = await response.Content.ReadAsStringAsync();
+			Assert.Equal("Not Found", result);
 		}
 	}
 }
