@@ -1,4 +1,5 @@
 using System;
+using System.Diagnostics;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
@@ -66,6 +67,21 @@ namespace Homework9.Tests
             var output = await response.Content.ReadAsStringAsync();
 
             Assert.Equal(successOrError + result, FindResult(output));
+        }
+        
+        [Theory]
+        [InlineData("2 %2B 3 / (-3) * 10 %2B (20 - 2) * 10")]
+        private async Task CalculatorController_ParallelTest(string expression)
+        {
+            var watch = new Stopwatch();
+            var stringContent = new StringContent($"expression={expression}", Encoding.UTF8);
+            stringContent.Headers.ContentType = new MediaTypeHeaderValue("application/x-www-form-urlencoded");
+            watch.Start();
+            var response = await client.PostAsync("https://localhost:5001/Calculator/Calculate", stringContent);
+            watch.Stop();
+            var result = watch.ElapsedMilliseconds;
+            Console.WriteLine(result);
+            Assert.True(result < 1500);
         }
 
         private string FindResult(string html)

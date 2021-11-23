@@ -11,7 +11,7 @@ namespace WebApplication.Services.Calculator
             var leftNodeTask = Task.Run(() =>(double)((ConstantExpression)Visit(node.Left)).Value);
             var rightNodeTask = Task.Run(() => (double) ((ConstantExpression) Visit(node.Right)).Value);
             Thread.Sleep(1000);
-            Task.WaitAll(leftNodeTask, rightNodeTask);
+            Task.WhenAll(leftNodeTask, rightNodeTask);
             var leftNode = leftNodeTask.Result;
             var rightNode = rightNodeTask.Result;
             
