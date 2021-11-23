@@ -2,7 +2,7 @@ namespace WebApplication.Services
 {
     public class Result<TSuccess, TError>
     {
-        private readonly TypeResult Type;
+        public readonly TypeResult Type;
         public readonly TSuccess Success;
         public readonly TError Error;
 

@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using WebApplication.Models;
 using WebApplication.Services;
+using WebApplication.Services.Calculator;
 
 namespace WebApplication.Controllers
 {
@@ -22,7 +23,13 @@ namespace WebApplication.Controllers
         [HttpPost]
         public IActionResult Calculate(string expression)
         {
-            return View(new ResultModel(_calculator.CalculateExpression(expression)));
+            var result = _calculator.Calculate(expression);
+            ResultModel model;
+            if (result.Type is TypeResult.Success)
+                model = new ResultModel($"Result: {result.Success}");
+            else
+                model = new ResultModel($"Error: {result.Error}");
+            return View(model);
         }
     }
 }

@@ -7,6 +7,6 @@ namespace WebApplication.Models
             Result = result;
         }
 
-        public string Result { get; set; }
+        public string Result { get; }
     }
 }
