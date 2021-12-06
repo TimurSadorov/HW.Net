@@ -2,9 +2,11 @@ using System.Diagnostics;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using Homework10.DbModels;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.AspNetCore.TestHost;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Xunit;
 using MediaTypeHeaderValue = System.Net.Http.Headers.MediaTypeHeaderValue;
@@ -18,7 +20,8 @@ namespace Homework10.Tests
                 .CreateDefaultBuilder()
                 .ConfigureWebHostDefaults(a => a
                     .UseStartup<Startup>()
-                    .UseTestServer());
+                    .UseTestServer())
+                .ConfigureServices(a => a.AddDbContext<ApplicationContext>());
     }
 
     public class IntegrationCalculatorControllerTests : IClassFixture<HostBuilder>

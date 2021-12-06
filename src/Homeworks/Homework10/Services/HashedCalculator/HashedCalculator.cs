@@ -17,7 +17,7 @@ namespace WebApplication.Services.HashedCalculator
 
 		public Result<string, string> Calculate(string expression)
 		{
-			var expressionWithoutSpace = expression.Replace(" ", "");
+			var expressionWithoutSpace = expression?.Replace(" ", "");
 			var possibleResult = _hashedExpression.SolvingExpressions
 				.FirstOrDefault(exp => exp.Expression == expressionWithoutSpace)?.Result;
 			if (possibleResult is not null)
