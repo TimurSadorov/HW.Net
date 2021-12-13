@@ -32,20 +32,16 @@ namespace Homework12
 	
 	[MaxColumn]
 	[MinColumn]
-	public class WebTest
+	public class WebTests
 	{
-		private HostBuilderCSharp _builderCSharp;
-		private HostBuilderFSharp _builderFSharp;
 		private HttpClient _cSharpClient;
 		private HttpClient _fSharpClient;
 		
 		[GlobalSetup]
-		public void GlobalSetUp()
+		public void SetUp()
 		{
-			_builderCSharp = new HostBuilderCSharp();
-			_cSharpClient = _builderCSharp.CreateClient();
-			_builderFSharp = new HostBuilderFSharp();
-			_fSharpClient = _builderFSharp.CreateClient();
+			_cSharpClient =  new HostBuilderCSharp().CreateClient();
+			_fSharpClient =  new HostBuilderFSharp().CreateClient();
 		}
 		
 		[Benchmark]
@@ -108,15 +104,6 @@ namespace Homework12
 		private async Task SendRequestFSharp(string v1, string operation, string v2)
 		{
 			await _fSharpClient.GetAsync($"http://localhost:5000/calculate?v1={v1}&Operation={operation}&v2={v2}");
-		}
-		
-		[GlobalCleanup]
-		public void Dispose()
-		{
-			_cSharpClient?.Dispose();
-			_builderCSharp?.Dispose();
-			_builderFSharp?.Dispose();
-			_fSharpClient?.Dispose();
 		}
 	}
 }

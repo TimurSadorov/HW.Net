@@ -7,7 +7,7 @@ namespace Homework12
 	{
 		static void Main(string[] args)
 		{
-			BenchmarkRunner.Run<WebTest>();
+			BenchmarkRunner.Run<WebTests>();
 		}
 	}
 }
