@@ -1,28 +1,33 @@
 ﻿using Homework8.Interface;
+using Homework8.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Homework8.Controllers
 {
 	public class CalculatorController : Controller
 	{
-		public double Add([FromServices] ICalculator calculator, double val1, double val2)
+		public IActionResult Add([FromServices] ICalculator calculator, double val1, double val2)
 		{
-			return calculator.Add(val1, val2);
+			var result = calculator.Add(val1, val2);
+			return View("Calculator", new CalculatorModel(result));
 		}
 
-		public double Subtract([FromServices] ICalculator calculator, double val1, double val2)
+		public IActionResult Subtract([FromServices] ICalculator calculator, double val1, double val2)
 		{
-			return calculator.Subtract(val1, val2);
+			var result = calculator.Subtract(val1, val2);
+			return View("Calculator", new CalculatorModel(result));
 		}
 
-		public double Divide([FromServices] ICalculator calculator, double val1, double val2)
+		public IActionResult Divide([FromServices] ICalculator calculator, double val1, double val2)
 		{
-			return calculator.Divide(val1, val2);
+			var result = calculator.Divide(val1, val2);
+			return View("Calculator", new CalculatorModel(result));
 		}
 
-		public double Multiply([FromServices] ICalculator calculator, double val1, double val2)
+		public IActionResult Multiply([FromServices] ICalculator calculator, double val1, double val2)
 		{
-			return calculator.Multiply(val1, val2);
+			var result = calculator.Multiply(val1, val2);
+			return View("Calculator", new CalculatorModel(result));
 		}
 	}
 }
