@@ -32,10 +32,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework9", "Homework9\Home
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework9.Tests", "Homework9.Tests\Homework9.Tests.csproj", "{257355A2-616A-41EA-BBE1-6B14A1B6076C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework10", "Homework10\Homework10.csproj", "{86F40C48-DD81-4E29-96A6-7EE125E0AF8D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework10.Tests", "Homework10.Tests\Homework10.Tests.csproj", "{45F72BB5-4BB9-4D98-AE88-B8CFA1E0F94E}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
