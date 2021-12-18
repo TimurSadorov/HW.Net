@@ -49,9 +49,9 @@ namespace Homework10.Tests
         [Theory]
         [InlineData("", "Empty string")]
         [InlineData("10 + i", "Unknown character i")]
-        [InlineData("3 - 4 / 2,2,3", "There is no such number 2,2,3")]
-        [InlineData("2 - 2,23,1 - 23", "There is no such number 2,23,1")]
-        [InlineData("(20 - 2,3,4) * 2", "There is no such number 2,3,4")]
+        [InlineData("3 - 4 / 2.2.3", "There is no such number 2.2.3")]
+        [InlineData("2 - 2.23.1 - 23", "There is no such number 2.23.1")]
+        [InlineData("(20 - 2.3.4) * 2", "There is no such number 2.3.4")]
         [InlineData("8 %2B 34 - / 2", "There are two operations in a row - and /")]
         [InlineData("4 - 10 * (/10 %2B 2)", "After the opening brackets, only negation can go: (/")]
         [InlineData("10 - 2 * (10 - 1 /)", "There is only a number before the closing parenthesis /)")]
@@ -69,18 +69,6 @@ namespace Homework10.Tests
 
             Assert.Equal(successOrError + result, FindResult(output));
         }
-        
-        // [Theory]
-        // [InlineData("2 %2B 3 / (-3) * 10 %2B (20 - 2) * 10")]
-        // public async Task CalculatorController_ParallelTest(string expression)
-        // {
-        //     var stringContent = new StringContent($"expression={expression}", Encoding.UTF8);
-        //     stringContent.Headers.ContentType = new MediaTypeHeaderValue("application/x-www-form-urlencoded");
-        //     var resultBefore = await GetRequestExecutionTime(stringContent);
-        //     Assert.True(resultBefore < 1500);
-        //     var resultAfter = await GetRequestExecutionTime(stringContent);
-        //     Assert.True(resultAfter < 400);
-        // }
 
         private async Task<long> GetRequestExecutionTime(StringContent stringContent)
         {
