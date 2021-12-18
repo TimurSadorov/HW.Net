@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Root CoveredStatements="501" TotalStatements="503" CoveragePercent="99" ReportType="DetailedXml" DotCoverVersion="2021.2.1">
+<Root CoveredStatements="467" TotalStatements="467" CoveragePercent="100" ReportType="DetailedXml" DotCoverVersion="2021.2.1">
   <FileIndices>
     <File Index="1" Name="E:\Repository\HW.Net\src\Homeworks\Homework7\Controllers\HomeController.cs" ChecksumAlgorithm="SHA256" Checksum="19F7C4A758C57BB622A86C3FCE738C1AA808DC571D3E8ED6E30EE9438052F1DB" />
     <File Index="2" Name="E:\Repository\HW.Net\src\Homeworks\Homework7\HtmlHelper\BuiltInTypes.cs" ChecksumAlgorithm="SHA256" Checksum="6B8730F433066E78D3E1203CF9198480460A9E67B8E36FD41A0ABD5FDD358816" />
@@ -714,8 +714,8 @@
       </Type>
     </Namespace>
   </Assembly>
-  <Assembly Name="Homework8" CoveredStatements="25" TotalStatements="26" CoveragePercent="96">
-    <Namespace Name="Homework8" CoveredStatements="21" TotalStatements="22" CoveragePercent="95">
+  <Assembly Name="Homework8" CoveredStatements="8" TotalStatements="8" CoveragePercent="100">
+    <Namespace Name="Homework8" CoveredStatements="4" TotalStatements="4" CoveragePercent="100">
       <Type Name="NumericalCalculator" CoveredStatements="4" TotalStatements="4" CoveragePercent="100">
         <Method Name="Add(System.Double,System.Double):System.Double" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
           <Statement FileIndex="75" Line="8" Column="7" EndLine="8" EndColumn="31" Covered="True" />
@@ -728,36 +728,6 @@
         </Method>
         <Method Name="Subtract(System.Double,System.Double):System.Double" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
           <Statement FileIndex="75" Line="11" Column="7" EndLine="11" EndColumn="31" Covered="True" />
-        </Method>
-      </Type>
-      <Type Name="Startup" CoveredStatements="17" TotalStatements="18" CoveragePercent="94">
-        <Type Name="&lt;&gt;c" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
-          <Method Name="&lt;Configure&gt;b__5_0(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder):System.Void" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
-            <Statement FileIndex="78" Line="50" Column="5" EndLine="51" EndColumn="57" Covered="True" />
-            <Statement FileIndex="78" Line="52" Column="4" EndLine="52" EndColumn="5" Covered="True" />
-          </Method>
-        </Type>
-        <Method Name=".ctor(Microsoft.Extensions.Configuration.IConfiguration):System.Void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
-          <Statement FileIndex="78" Line="13" Column="3" EndLine="13" EndColumn="47" Covered="True" />
-          <Statement FileIndex="78" Line="15" Column="4" EndLine="15" EndColumn="34" Covered="True" />
-          <Statement FileIndex="78" Line="16" Column="3" EndLine="16" EndColumn="4" Covered="True" />
-        </Method>
-        <Method Name="Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment):System.Void" CoveredStatements="9" TotalStatements="10" CoveragePercent="90">
-          <Statement FileIndex="78" Line="30" Column="4" EndLine="30" EndColumn="28" Covered="True" />
-          <Statement FileIndex="78" Line="32" Column="5" EndLine="32" EndColumn="37" Covered="False" />
-          <Statement FileIndex="78" Line="36" Column="5" EndLine="36" EndColumn="44" Covered="True" />
-          <Statement FileIndex="78" Line="38" Column="5" EndLine="38" EndColumn="19" Covered="True" />
-          <Statement FileIndex="78" Line="41" Column="4" EndLine="41" EndColumn="30" Covered="True" />
-          <Statement FileIndex="78" Line="42" Column="4" EndLine="42" EndColumn="25" Covered="True" />
-          <Statement FileIndex="78" Line="44" Column="4" EndLine="44" EndColumn="21" Covered="True" />
-          <Statement FileIndex="78" Line="46" Column="4" EndLine="46" EndColumn="27" Covered="True" />
-          <Statement FileIndex="78" Line="48" Column="4" EndLine="52" EndColumn="7" Covered="True" />
-          <Statement FileIndex="78" Line="53" Column="3" EndLine="53" EndColumn="4" Covered="True" />
-        </Method>
-        <Method Name="ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection):System.Void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
-          <Statement FileIndex="78" Line="23" Column="4" EndLine="23" EndColumn="39" Covered="True" />
-          <Statement FileIndex="78" Line="24" Column="4" EndLine="24" EndColumn="62" Covered="True" />
-          <Statement FileIndex="78" Line="25" Column="3" EndLine="25" EndColumn="4" Covered="True" />
         </Method>
       </Type>
     </Namespace>
@@ -850,39 +820,7 @@
       </Type>
     </Namespace>
   </Assembly>
-  <Assembly Name="Homework9" CoveredStatements="156" TotalStatements="157" CoveragePercent="99">
-    <Namespace Name="WebApplication" CoveredStatements="17" TotalStatements="18" CoveragePercent="94">
-      <Type Name="Startup" CoveredStatements="17" TotalStatements="18" CoveragePercent="94">
-        <Type Name="&lt;&gt;c" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
-          <Method Name="&lt;Configure&gt;b__5_0(Microsoft.AspNetCore.Routing.IEndpointRouteBuilder):System.Void" CoveredStatements="2" TotalStatements="2" CoveragePercent="100">
-            <Statement FileIndex="23" Line="55" Column="17" EndLine="57" EndColumn="72" Covered="True" />
-            <Statement FileIndex="23" Line="58" Column="13" EndLine="58" EndColumn="14" Covered="True" />
-          </Method>
-        </Type>
-        <Method Name=".ctor(Microsoft.Extensions.Configuration.IConfiguration):System.Void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
-          <Statement FileIndex="23" Line="18" Column="9" EndLine="18" EndColumn="53" Covered="True" />
-          <Statement FileIndex="23" Line="20" Column="13" EndLine="20" EndColumn="43" Covered="True" />
-          <Statement FileIndex="23" Line="21" Column="9" EndLine="21" EndColumn="10" Covered="True" />
-        </Method>
-        <Method Name="Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment):System.Void" CoveredStatements="9" TotalStatements="10" CoveragePercent="90">
-          <Statement FileIndex="23" Line="35" Column="13" EndLine="35" EndColumn="37" Covered="True" />
-          <Statement FileIndex="23" Line="37" Column="17" EndLine="37" EndColumn="49" Covered="False" />
-          <Statement FileIndex="23" Line="41" Column="17" EndLine="41" EndColumn="56" Covered="True" />
-          <Statement FileIndex="23" Line="43" Column="17" EndLine="43" EndColumn="31" Covered="True" />
-          <Statement FileIndex="23" Line="46" Column="13" EndLine="46" EndColumn="39" Covered="True" />
-          <Statement FileIndex="23" Line="47" Column="13" EndLine="47" EndColumn="34" Covered="True" />
-          <Statement FileIndex="23" Line="49" Column="13" EndLine="49" EndColumn="30" Covered="True" />
-          <Statement FileIndex="23" Line="51" Column="13" EndLine="51" EndColumn="36" Covered="True" />
-          <Statement FileIndex="23" Line="53" Column="13" EndLine="58" EndColumn="16" Covered="True" />
-          <Statement FileIndex="23" Line="59" Column="9" EndLine="59" EndColumn="10" Covered="True" />
-        </Method>
-        <Method Name="ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection):System.Void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
-          <Statement FileIndex="23" Line="28" Column="13" EndLine="28" EndColumn="48" Covered="True" />
-          <Statement FileIndex="23" Line="29" Column="13" EndLine="29" EndColumn="62" Covered="True" />
-          <Statement FileIndex="23" Line="30" Column="9" EndLine="30" EndColumn="10" Covered="True" />
-        </Method>
-      </Type>
-    </Namespace>
+  <Assembly Name="Homework9" CoveredStatements="139" TotalStatements="139" CoveragePercent="100">
     <Namespace Name="WebApplication.Controllers" CoveredStatements="8" TotalStatements="8" CoveragePercent="100">
       <Type Name="CalculatorController" CoveredStatements="8" TotalStatements="8" CoveragePercent="100">
         <Method Name=".ctor(WebApplication.Services.Calculator.ICalculator):System.Void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
