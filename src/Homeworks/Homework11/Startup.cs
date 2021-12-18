@@ -6,7 +6,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using WebApplication.Services;
 using WebApplication.Services.Calculator;
 using WebApplication.Services.HashedCalculator;
@@ -27,7 +26,7 @@ namespace Homework10
 		{
 			services.AddControllersWithViews();
 			services.AddDbContext<ApplicationContext>(options =>
-				options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
+				options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
 			services.AddScoped<ICalculator>(s =>
 				new HashedCalculator(s.GetService<ApplicationContext>(), new Calculator()));
 			services.AddScoped<IExceptionHandler, ExceptionHandler>();

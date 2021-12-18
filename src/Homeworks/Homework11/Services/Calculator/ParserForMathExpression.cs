@@ -29,7 +29,7 @@ namespace WebApplication.Services.Calculator
                     if (!TryAddToken(ref num, tokens, c, TokenType.Operation))
                         throw new InvalidNumberException(errorMessageForNum + num);
                 }
-                else if (char.IsDigit(c) || c == ',')
+                else if (char.IsDigit(c) || c == '.')
                     num += c;
                 else
                     throw new InvalidSymbolException($"Unknown character {c}");
@@ -37,7 +37,7 @@ namespace WebApplication.Services.Calculator
 
             if (!string.IsNullOrEmpty(num))
                 if (!double.TryParse(num, out _))
-                    throw new ArgumentException(errorMessageForNum + num);
+                    throw new InvalidNumberException(errorMessageForNum + num);
                 else 
                     tokens.Add(new Token(TokenType.Number, num));
 

@@ -38,6 +38,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework10.Tests", "Homewor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework11", "Homework11\Homework11.csproj", "{E42402EF-B3CD-4B85-BBB4-1DA0CF905294}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework11.Tests", "Homework11.Tests\Homework11.Tests.csproj", "{1D9DDA3D-0112-48CC-95C8-626A72F4F1E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -120,5 +122,13 @@ Global
 		{E42402EF-B3CD-4B85-BBB4-1DA0CF905294}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E42402EF-B3CD-4B85-BBB4-1DA0CF905294}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E42402EF-B3CD-4B85-BBB4-1DA0CF905294}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7428BF33-407C-45C3-856B-073AF8A25745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7428BF33-407C-45C3-856B-073AF8A25745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7428BF33-407C-45C3-856B-073AF8A25745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7428BF33-407C-45C3-856B-073AF8A25745}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D9DDA3D-0112-48CC-95C8-626A72F4F1E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D9DDA3D-0112-48CC-95C8-626A72F4F1E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D9DDA3D-0112-48CC-95C8-626A72F4F1E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D9DDA3D-0112-48CC-95C8-626A72F4F1E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
