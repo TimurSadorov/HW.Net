@@ -27,7 +27,7 @@ namespace WebApplication.Services.Calculator
                     if (!TryAddToken(ref num, tokens, c, TokenType.Operation))
                         return new Result<List<Token>, string>(errorMessageForNum + num);
                 }
-                else if (char.IsDigit(c) || c == ',')
+                else if (char.IsDigit(c) || c == '.')
                     num += c;
                 else
                     return new Result<List<Token>, string>($"Unknown character {c}");
