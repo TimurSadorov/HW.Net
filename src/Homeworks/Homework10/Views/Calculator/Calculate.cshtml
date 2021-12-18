@@ -1,0 +1,12 @@
+@model WebApplication.Models.ResultModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<form method="post" asp-action="Calculate">
+    <input type="text" placeholder="Введите выражение" name="expression"/>
+    <input type="submit" value="Вычеслить"/>
+</form>
+<span id="response" class="mt-3">@Model?.Result</span>
