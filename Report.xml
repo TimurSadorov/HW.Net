@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Root CoveredStatements="492" TotalStatements="493" CoveragePercent="99" ReportType="DetailedXml" DotCoverVersion="2021.2.1">
   <FileIndices>
-    <File Index="1" Name="E:\Repository\HW.Net\src\Homeworks\Homework10.Tests\IntegrationCalculatorControllerTests.cs" ChecksumAlgorithm="SHA256" Checksum="1E56F0E1E17BB7309B681B17303153108DDD4EAFF56A78F8020D2109F5AAAECC" />
+    <File Index="1" Name="E:\Repository\HW.Net\src\Homeworks\Homework10.Tests\obj\Release\net5.0\Homework10.Tests.AssemblyInfo.cs" ChecksumAlgorithm="SHA256" Checksum="FA4E9C90DA9048FCF4654651B9BACF3E394F6406EE312FF89159D424740A3B9F" />
     <File Index="2" Name="C:\Users\sador\.nuget\packages\microsoft.net.test.sdk\16.9.4\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" ChecksumAlgorithm="SHA256" Checksum="D66F12F9433816A8C7DC1B2ACB9E1010F5418F5EEB51E80F1DF57AA1DCAB8D8A" />
     <File Index="3" Name="E:\Repository\HW.Net\src\Homeworks\Homework10.Tests\obj\Release\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" ChecksumAlgorithm="SHA256" Checksum="3DAB221DDB7A8D7D050731DC8D289DF26D56F7DABEB91B3D7F96E5CB6C994C29" />
-    <File Index="4" Name="E:\Repository\HW.Net\src\Homeworks\Homework10.Tests\obj\Release\net5.0\Homework10.Tests.AssemblyInfo.cs" ChecksumAlgorithm="SHA256" Checksum="FA4E9C90DA9048FCF4654651B9BACF3E394F6406EE312FF89159D424740A3B9F" />
+    <File Index="4" Name="E:\Repository\HW.Net\src\Homeworks\Homework10.Tests\IntegrationCalculatorControllerTests.cs" ChecksumAlgorithm="SHA256" Checksum="A1E6B477AFC365E481720950CB160F70806FAD4B01CE1F9C45C0E6309BCADA53" />
     <File Index="5" Name="E:\Repository\HW.Net\src\Homeworks\Homework9\Controllers\CalculatorController.cs" ChecksumAlgorithm="SHA256" Checksum="3B9BBE368E2ED29F83A8507D5CF796E61417C814F9F907E98A518A1D2C4BE49B" />
     <File Index="6" Name="E:\Repository\HW.Net\src\Homeworks\Homework9\Controllers\HomeController.cs" ChecksumAlgorithm="SHA256" Checksum="1024724069B38D7094CE1A4532380034869D4A2791C34BA818243A53B0092D07" />
     <File Index="7" Name="E:\Repository\HW.Net\src\Homeworks\Homework9\Models\ErrorViewModel.cs" ChecksumAlgorithm="SHA256" Checksum="C6D1F1470379C548A5F7E5A9D3142983DA515D4DEE51BF01AC13B4D33C117870" />
@@ -31,28 +31,28 @@
     <File Index="28" Name="E:\Repository\HW.Net\src\Homeworks\Homework7\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" ChecksumAlgorithm="SHA256" Checksum="3DAB221DDB7A8D7D050731DC8D289DF26D56F7DABEB91B3D7F96E5CB6C994C29" />
     <File Index="29" Name="E:\Repository\HW.Net\src\Homeworks\Homework7\obj\Debug\net5.0\Homework7.AssemblyInfo.cs" ChecksumAlgorithm="SHA256" Checksum="82B0059625F817BE38F2D6715679E12B03D99848FCDEFDA3248C0FA651904A35" />
     <File Index="30" Name="E:\Repository\HW.Net\src\Homeworks\Homework7\obj\Debug\net5.0\Homework7.RazorAssemblyInfo.cs" ChecksumAlgorithm="SHA256" Checksum="B19D7EEAADCD836DE1FBBFBFE97EC39A6B0DDD789132AFFD1A144C0DE83D2005" />
-    <File Index="31" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Controllers\CalculatorController.cs" ChecksumAlgorithm="SHA256" Checksum="3B9BBE368E2ED29F83A8507D5CF796E61417C814F9F907E98A518A1D2C4BE49B" />
-    <File Index="32" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Controllers\HomeController.cs" ChecksumAlgorithm="SHA256" Checksum="5EA9A7A005638FEC33D6A21271E6A158EB65DF71A5BC19E3978F73DE9C02CC6C" />
-    <File Index="33" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\DbModels\ApplicationContext.cs" ChecksumAlgorithm="SHA256" Checksum="3516F0092240D4FED80766900B5A27412FB8700A272514C5D842FEBF78B98D17" />
-    <File Index="34" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\DbModels\SolvingExpression.cs" ChecksumAlgorithm="SHA256" Checksum="EB97D08A881651C722B5ED4655118A38132E3DBFB0EA8EAAE519AD606ADD82B4" />
-    <File Index="35" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Migrations\20211129180146_AddAllModels.cs" ChecksumAlgorithm="SHA256" Checksum="4FF495F75A4B59C2716EF536BA6A0BE972540C3128583F8BE1443CD475FDA98E" />
-    <File Index="36" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Migrations\20211129180146_AddAllModels.Designer.cs" ChecksumAlgorithm="SHA256" Checksum="6FA3C2C7078328C5F8376534E765E29B23BE3668DB778CCE6A7804343ACDF716" />
-    <File Index="37" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Migrations\ApplicationContextModelSnapshot.cs" ChecksumAlgorithm="SHA256" Checksum="0D65644D104245FDA7F1F00B2154FE988DD930269F8436FEF4E5856726052FAA" />
-    <File Index="38" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Models\ErrorViewModel.cs" ChecksumAlgorithm="SHA256" Checksum="CF113B0CDD44C8920582CB86F66A762576F4C51F68238991C103BF81779C58C9" />
-    <File Index="39" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Models\ResultModel.cs" ChecksumAlgorithm="SHA256" Checksum="EACC44E82FB32DB9B50D8705604A3808883973A7A68B4D842489A3F38581AE0B" />
-    <File Index="40" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Program.cs" ChecksumAlgorithm="SHA256" Checksum="006876E8C93619680CF4212B5D25A5B216155AC787F5918A0501C6F847C4C056" />
-    <File Index="41" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Services\Calculator\Calculator.cs" ChecksumAlgorithm="SHA256" Checksum="6F55FC39A2797A640070DACC9477A393F0995C8EB6EF480E2ED4EA4E60BCDCCF" />
-    <File Index="42" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Services\Calculator\CalculatorVisitor.cs" ChecksumAlgorithm="SHA256" Checksum="2D1F1635A691D7A4A514D52E00CD388D6CB63B92926DBD8529EF92A812E71B92" />
-    <File Index="43" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Services\Calculator\Checker.cs" ChecksumAlgorithm="SHA256" Checksum="83307B36B807529EA2EB01D947E361D7A33B379359F0E98EBC4B5B12DA6DB375" />
-    <File Index="44" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Services\Calculator\ICalculator.cs" ChecksumAlgorithm="SHA256" Checksum="FADA2E28C404C49395F12CBD614B62A737B6C63C6FCD029121D7CC40B9F21904" />
-    <File Index="45" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Services\Calculator\ParserForMathExpression.cs" ChecksumAlgorithm="SHA256" Checksum="52599C5BE9590D380CAB2166CB8DD318F4730BACCFB2FF26F2DC2442FB88749D" />
-    <File Index="46" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Services\Calculator\Token.cs" ChecksumAlgorithm="SHA256" Checksum="FCFF96079FBF4DE55735B4E50CD7E0C79938D672D433387307B6CCCE85CF6671" />
-    <File Index="47" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Services\HashedCalculator\HashedCalculator.cs" ChecksumAlgorithm="SHA256" Checksum="58C30204E5F51FB36133386AAA0BBFA2AADAC2712D5D9BFC6FBF9E7F0C819024" />
-    <File Index="48" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Services\Result.cs" ChecksumAlgorithm="SHA256" Checksum="4E408BCCACD4433E3F458397B37EF634AA286F0E2D5B7E5A72CF48ED82FDB48E" />
-    <File Index="49" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Startup.cs" ChecksumAlgorithm="SHA256" Checksum="6DF27673ED2D68391B0BFD0257002EE85E51B3223606DCB435D30A9E2078AFB3" />
-    <File Index="50" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\obj\Release\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" ChecksumAlgorithm="SHA256" Checksum="3DAB221DDB7A8D7D050731DC8D289DF26D56F7DABEB91B3D7F96E5CB6C994C29" />
-    <File Index="51" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\obj\Release\net5.0\Homework10.AssemblyInfo.cs" ChecksumAlgorithm="SHA256" Checksum="A93249E9E8F672A0864BBC6906DD9F46BF78388806C5C5C31E67F0C21E3314AA" />
-    <File Index="52" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\obj\Release\net5.0\Homework10.RazorAssemblyInfo.cs" ChecksumAlgorithm="SHA256" Checksum="4AE6855970461DFCD049130BD2216CE69E58D56933BEBE17B452D1C0AC37B6AF" />
+    <File Index="31" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\obj\Release\net5.0\Homework10.RazorAssemblyInfo.cs" ChecksumAlgorithm="SHA256" Checksum="4AE6855970461DFCD049130BD2216CE69E58D56933BEBE17B452D1C0AC37B6AF" />
+    <File Index="32" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\obj\Release\net5.0\Homework10.AssemblyInfo.cs" ChecksumAlgorithm="SHA256" Checksum="A93249E9E8F672A0864BBC6906DD9F46BF78388806C5C5C31E67F0C21E3314AA" />
+    <File Index="33" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\obj\Release\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" ChecksumAlgorithm="SHA256" Checksum="3DAB221DDB7A8D7D050731DC8D289DF26D56F7DABEB91B3D7F96E5CB6C994C29" />
+    <File Index="34" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Startup.cs" ChecksumAlgorithm="SHA256" Checksum="613858F2F983D6CF0E329BCADF450FC777EE0ADBD54390C909266F71397AFA7F" />
+    <File Index="35" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Services\Result.cs" ChecksumAlgorithm="SHA256" Checksum="4E408BCCACD4433E3F458397B37EF634AA286F0E2D5B7E5A72CF48ED82FDB48E" />
+    <File Index="36" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Services\HashedCalculator\HashedCalculator.cs" ChecksumAlgorithm="SHA256" Checksum="58C30204E5F51FB36133386AAA0BBFA2AADAC2712D5D9BFC6FBF9E7F0C819024" />
+    <File Index="37" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Services\Calculator\Token.cs" ChecksumAlgorithm="SHA256" Checksum="FCFF96079FBF4DE55735B4E50CD7E0C79938D672D433387307B6CCCE85CF6671" />
+    <File Index="38" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Services\Calculator\ParserForMathExpression.cs" ChecksumAlgorithm="SHA256" Checksum="0714822D3337674EA57547EDD23C73979FE5BAEAB96A23331D9E09DAF1823986" />
+    <File Index="39" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Services\Calculator\ICalculator.cs" ChecksumAlgorithm="SHA256" Checksum="FADA2E28C404C49395F12CBD614B62A737B6C63C6FCD029121D7CC40B9F21904" />
+    <File Index="40" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Services\Calculator\Checker.cs" ChecksumAlgorithm="SHA256" Checksum="83307B36B807529EA2EB01D947E361D7A33B379359F0E98EBC4B5B12DA6DB375" />
+    <File Index="41" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Services\Calculator\CalculatorVisitor.cs" ChecksumAlgorithm="SHA256" Checksum="2D1F1635A691D7A4A514D52E00CD388D6CB63B92926DBD8529EF92A812E71B92" />
+    <File Index="42" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Services\Calculator\Calculator.cs" ChecksumAlgorithm="SHA256" Checksum="6F55FC39A2797A640070DACC9477A393F0995C8EB6EF480E2ED4EA4E60BCDCCF" />
+    <File Index="43" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Program.cs" ChecksumAlgorithm="SHA256" Checksum="006876E8C93619680CF4212B5D25A5B216155AC787F5918A0501C6F847C4C056" />
+    <File Index="44" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Models\ResultModel.cs" ChecksumAlgorithm="SHA256" Checksum="EACC44E82FB32DB9B50D8705604A3808883973A7A68B4D842489A3F38581AE0B" />
+    <File Index="45" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Models\ErrorViewModel.cs" ChecksumAlgorithm="SHA256" Checksum="CF113B0CDD44C8920582CB86F66A762576F4C51F68238991C103BF81779C58C9" />
+    <File Index="46" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Migrations\ApplicationContextModelSnapshot.cs" ChecksumAlgorithm="SHA256" Checksum="0D65644D104245FDA7F1F00B2154FE988DD930269F8436FEF4E5856726052FAA" />
+    <File Index="47" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Migrations\20211129180146_AddAllModels.Designer.cs" ChecksumAlgorithm="SHA256" Checksum="6FA3C2C7078328C5F8376534E765E29B23BE3668DB778CCE6A7804343ACDF716" />
+    <File Index="48" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Migrations\20211129180146_AddAllModels.cs" ChecksumAlgorithm="SHA256" Checksum="4FF495F75A4B59C2716EF536BA6A0BE972540C3128583F8BE1443CD475FDA98E" />
+    <File Index="49" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\DbModels\SolvingExpression.cs" ChecksumAlgorithm="SHA256" Checksum="EB97D08A881651C722B5ED4655118A38132E3DBFB0EA8EAAE519AD606ADD82B4" />
+    <File Index="50" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\DbModels\ApplicationContext.cs" ChecksumAlgorithm="SHA256" Checksum="3516F0092240D4FED80766900B5A27412FB8700A272514C5D842FEBF78B98D17" />
+    <File Index="51" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Controllers\HomeController.cs" ChecksumAlgorithm="SHA256" Checksum="5EA9A7A005638FEC33D6A21271E6A158EB65DF71A5BC19E3978F73DE9C02CC6C" />
+    <File Index="52" Name="E:\Repository\HW.Net\src\Homeworks\Homework10\Controllers\CalculatorController.cs" ChecksumAlgorithm="SHA256" Checksum="3B9BBE368E2ED29F83A8507D5CF796E61417C814F9F907E98A518A1D2C4BE49B" />
     <File Index="53" Name="E:\Repository\HW.Net\src\Homeworks\Homework1\Calculator.cs" ChecksumAlgorithm="SHA256" Checksum="373EDB84174644981FE86404657DD29C5D7881ADEF33D44059870B3EE0FA2771" />
     <File Index="54" Name="E:\Repository\HW.Net\src\Homeworks\Homework1\Parser.cs" ChecksumAlgorithm="SHA256" Checksum="C172008458D8EC68ACC09916A2CD4B422DE7E53478F4BBEBB3CCABE4155309D6" />
     <File Index="55" Name="E:\Repository\HW.Net\src\Homeworks\Homework1\Program.cs" ChecksumAlgorithm="SHA256" Checksum="F3893DF33B7024C1381660081ABBA4B596559FA95E060D3F7CB243D00D486C75" />
@@ -265,44 +265,44 @@
     <Namespace Name="WebApplication.Controllers" CoveredStatements="8" TotalStatements="8" CoveragePercent="100">
       <Type Name="CalculatorController" CoveredStatements="8" TotalStatements="8" CoveragePercent="100">
         <Method Name=".ctor(WebApplication.Services.Calculator.ICalculator):System.Void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
-          <Statement FileIndex="31" Line="12" Column="9" EndLine="12" EndColumn="60" Covered="True" />
-          <Statement FileIndex="31" Line="14" Column="13" EndLine="14" EndColumn="38" Covered="True" />
-          <Statement FileIndex="31" Line="15" Column="9" EndLine="15" EndColumn="10" Covered="True" />
+          <Statement FileIndex="52" Line="12" Column="9" EndLine="12" EndColumn="60" Covered="True" />
+          <Statement FileIndex="52" Line="14" Column="13" EndLine="14" EndColumn="38" Covered="True" />
+          <Statement FileIndex="52" Line="15" Column="9" EndLine="15" EndColumn="10" Covered="True" />
         </Method>
         <Method Name="Calculate(System.String):Microsoft.AspNetCore.Mvc.IActionResult" CoveredStatements="5" TotalStatements="5" CoveragePercent="100">
-          <Statement FileIndex="31" Line="26" Column="13" EndLine="26" EndColumn="60" Covered="True" />
-          <Statement FileIndex="31" Line="28" Column="13" EndLine="28" EndColumn="51" Covered="True" />
-          <Statement FileIndex="31" Line="29" Column="17" EndLine="29" EndColumn="70" Covered="True" />
-          <Statement FileIndex="31" Line="31" Column="17" EndLine="31" EndColumn="67" Covered="True" />
-          <Statement FileIndex="31" Line="32" Column="13" EndLine="32" EndColumn="32" Covered="True" />
+          <Statement FileIndex="52" Line="26" Column="13" EndLine="26" EndColumn="60" Covered="True" />
+          <Statement FileIndex="52" Line="28" Column="13" EndLine="28" EndColumn="51" Covered="True" />
+          <Statement FileIndex="52" Line="29" Column="17" EndLine="29" EndColumn="70" Covered="True" />
+          <Statement FileIndex="52" Line="31" Column="17" EndLine="31" EndColumn="67" Covered="True" />
+          <Statement FileIndex="52" Line="32" Column="13" EndLine="32" EndColumn="32" Covered="True" />
         </Method>
       </Type>
     </Namespace>
     <Namespace Name="WebApplication.Models" CoveredStatements="4" TotalStatements="4" CoveragePercent="100">
       <Type Name="ResultModel" CoveredStatements="4" TotalStatements="4" CoveragePercent="100">
         <Method Name=".ctor(System.String):System.Void" CoveredStatements="3" TotalStatements="3" CoveragePercent="100">
-          <Statement FileIndex="39" Line="5" Column="9" EndLine="5" EndColumn="42" Covered="True" />
-          <Statement FileIndex="39" Line="7" Column="13" EndLine="7" EndColumn="29" Covered="True" />
-          <Statement FileIndex="39" Line="8" Column="9" EndLine="8" EndColumn="10" Covered="True" />
+          <Statement FileIndex="44" Line="5" Column="9" EndLine="5" EndColumn="42" Covered="True" />
+          <Statement FileIndex="44" Line="7" Column="13" EndLine="7" EndColumn="29" Covered="True" />
+          <Statement FileIndex="44" Line="8" Column="9" EndLine="8" EndColumn="10" Covered="True" />
         </Method>
         <Method Name="get_Result():System.String" CoveredStatements="1" TotalStatements="1" CoveragePercent="100">
-          <Statement FileIndex="39" Line="10" Column="32" EndLine="10" EndColumn="36" Covered="True" />
+          <Statement FileIndex="44" Line="10" Column="32" EndLine="10" EndColumn="36" Covered="True" />
         </Method>
       </Type>
     </Namespace>
     <Namespace Name="WebApplication.Services" CoveredStatements="8" TotalStatements="8" CoveragePercent="100">
       <Type Name="Result&lt;TSuccess,TError&gt;" CoveredStatements="8" TotalStatements="8" CoveragePercent="100">
         <Method Name=".ctor(TError):System.Void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100">
-          <Statement FileIndex="48" Line="15" Column="9" EndLine="15" EndColumn="36" Covered="True" />
-          <Statement FileIndex="48" Line="17" Column="13" EndLine="17" EndColumn="37" Covered="True" />
-          <Statement FileIndex="48" Line="18" Column="13" EndLine="18" EndColumn="27" Covered="True" />
-          <Statement FileIndex="48" Line="19" Column="9" EndLine="19" EndColumn="10" Covered="True" />
+          <Statement FileIndex="35" Line="15" Column="9" EndLine="15" EndColumn="36" Covered="True" />
+          <Statement FileIndex="35" Line="17" Column="13" EndLine="17" EndColumn="37" Covered="True" />
+          <Statement FileIndex="35" Line="18" Column="13" EndLine="18" EndColumn="27" Covered="True" />
+          <Statement FileIndex="35" Line="19" Column="9" EndLine="19" EndColumn="10" Covered="True" />
         </Method>
         <Method Name=".ctor(TSuccess):System.Void" CoveredStatements="4" TotalStatements="4" CoveragePercent="100">
-          <Statement FileIndex="48" Line="9" Column="9" EndLine="9" EndColumn="40" Covered="True" />
-          <Statement FileIndex="48" Line="11" Column="13" EndLine="11" EndColumn="39" Covered="True" />
-          <Statement FileIndex="48" Line="12" Column="13" EndLine="12" EndColumn="31" Covered="True" />
-          <Statement FileIndex="48" Line="13" Column="9" EndLine="13" EndColumn="10" Covered="True" />
+          <Statement FileIndex="35" Line="9" Column="9" EndLine="9" EndColumn="40" Covered="True" />
+          <Statement FileIndex="35" Line="11" Column="13" EndLine="11" EndColumn="39" Covered="True" />
+          <Statement FileIndex="35" Line="12" Column="13" EndLine="12" EndColumn="31" Covered="True" />
+          <Statement FileIndex="35" Line="13" Column="9" EndLine="13" EndColumn="10" Covered="True" />
         </Method>
       </Type>
     </Namespace>
