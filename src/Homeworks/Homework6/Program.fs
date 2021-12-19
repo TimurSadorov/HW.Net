@@ -33,5 +33,5 @@ let main args =
                         .UseStartup<Startup>()
                         |> ignore)
         .Build()
-        .Run()
+        .Run()  
     0
