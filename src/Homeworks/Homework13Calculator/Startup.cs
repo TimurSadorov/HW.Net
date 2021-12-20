@@ -1,14 +1,12 @@
-using Homework10.DbModels;
+using Homework13Calculator.Services.Calculator;
+using Homework13Calculator.Services.HashedCalculator;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using WebApplication.Services.Calculator;
-using WebApplication.Services.HashedCalculator;
 
-namespace Homework10
+namespace Homework13Calculator
 {
 	public class Startup
 	{
@@ -23,10 +21,8 @@ namespace Homework10
 		public void ConfigureServices(IServiceCollection services)
 		{
 			services.AddControllersWithViews();
-			services.AddDbContext<ApplicationContext>(options =>
-				options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
 			services.AddScoped<ICalculator>(s =>
-				new HashedCalculator(s.GetService<ApplicationContext>(), new Calculator()));
+				new HashedCalculator(new Calculator()));
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

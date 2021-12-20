@@ -1,4 +1,4 @@
-namespace Homework10.Models
+namespace Homework13Calculator.Models
 {
     public class ResultModel
     {
