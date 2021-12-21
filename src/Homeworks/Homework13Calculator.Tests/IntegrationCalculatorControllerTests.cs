@@ -2,25 +2,11 @@ using System.Diagnostics;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc.Testing;
-using Microsoft.AspNetCore.TestHost;
-using Microsoft.Extensions.Hosting;
 using Xunit;
 using MediaTypeHeaderValue = System.Net.Http.Headers.MediaTypeHeaderValue;
 
 namespace Homework13Calculator.Tests
 {
-    public class HostBuilder : WebApplicationFactory<Startup>
-    {
-        protected override IHostBuilder CreateHostBuilder()
-            => Host
-                .CreateDefaultBuilder()
-                .ConfigureWebHostDefaults(a => a
-                    .UseStartup<Startup>()
-                    .UseTestServer());
-    }
-
     public class IntegrationCalculatorControllerTests : IClassFixture<HostBuilder>
     {
         private readonly HttpClient client;
