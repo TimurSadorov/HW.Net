@@ -1,0 +1,13 @@
+@model PlayerDto
+
+@{
+    ViewBag.Title = "Game";
+    Layout = "_Layout";
+}
+
+@using (Html.BeginForm("Start", "Game", FormMethod.Post))
+{
+    @Html.EditorForModel()
+    <button class="btn btn-outline-dark mt-3" type="submit">Начать</button>
+}
+
